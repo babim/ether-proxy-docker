@@ -1,8 +1,8 @@
-FROM alpine:3.5
+FROM babim/alpinebase
 
 ENV GOPATH /home/go
 
-RUN apk --update add -ut build-deps \
+RUN apk --no-cache add -ut build-deps \
     go \
     git \
     g++
