@@ -24,6 +24,7 @@ RUN go build -o ether-proxy main.go
 COPY run.sh /run.sh
 
 WORKDIR /
+RUN apk del git build-deps
 
 CMD ["/run.sh"]
 
