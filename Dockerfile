@@ -15,7 +15,7 @@ RUN go get github.com/yvasiyarov/gorelic
 
 WORKDIR /opt
 
-RUN git clone https://github.com/sammy007/ether-proxy.git
+RUN git clone https://github.com/babim/ether-proxy.git
 
 WORKDIR /opt/ether-proxy
 
